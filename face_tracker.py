@@ -20,7 +20,6 @@ email:elmira.ghorbani96@gmail.com
 
 import numpy as np
 import cv2
-from common import clock, draw_str
 import math
 
 class FaceTracker():
