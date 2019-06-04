@@ -10,10 +10,14 @@ Python 3+
 Opencv 3.4+
 Numpy
 Scikit-Image
-
+Tensorflow
 ```
-
+## Running
+```
+git clone https://github.com/ElmiiiRaa/align_iranian_national_id_card.git
+cd align_iran_national_id_card
+python main.py
+```
+There is a sample input card in **input_cards/2.jpg** directory you replace it with you're own real cards.
 ## License
-MIT
-
 MIT ©2019
