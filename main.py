@@ -38,7 +38,7 @@ from rotate_crop_with_HoughLines import HoughLines
 from information_exteract import card_data
 EYE_DIST = 60
 
-input_cards_path = 'input_cards/'
+input_cards_path = 'outputs/input_cards/'
 rotated_cards_path = 'outputs/rotated_cards'
 cards_cropped_by_eyes_path = 'outputs/cards_cropped_by_eyes'
 
@@ -71,8 +71,8 @@ if __name__ == '__main__':
 	
 		npoints,rects,angle= tracker.detect(img)
 
-		img=tracker.draw_rectangle(img,npoints)
-		cv2.imwrite(file,img)
+		#img=tracker.draw_rectangle(img,npoints)
+		#cv2.imwrite(file,img)
 
 		face_angle=tracker.face_angle(img,npoints)
 		
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 		y1 = int(y1 * scale)
 		y2 = int(y2 * scale) 
 	
-		cv2.rectangle(image, ((x1)  , (y1) ) ,((x2) , (y2)  ) , (86,170,240) ,3)
+		#cv2.rectangle(image, ((x1)  , (y1) ) ,((x2) , (y2)  ) , (86,170,240) ,3)
 		
 
 		idCard = image[int(y1  - 350):int(y1  + 380), int(x1 - 200):int(x2 + 660 +70 +80)]
@@ -197,7 +197,8 @@ if __name__ == '__main__':
 			cv2.imwrite(save_cropped_by_eyes,idCard)
 	HoughLines()
 	card_data()
-	#os.system('python ./ctpn/demo_pb.py')
+	os.system('python ./ctpn/demo_pb.py')
 
 		
+
 

@@ -47,7 +47,7 @@ def get_eyes(img):
         for eyes_row_arg in eyes_row_args:
             [ex, ey, ew, eh] = eyes[eyes_row_arg,:]
             eyes_total.append([ex + x, ey + y, ew, eh])
-            cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (188, 16, 190), 2) #-- Drawe on eye
+            #cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (188, 16, 190), 2) #-- Drawe on eye
         eyes_total = np.array(eyes_total)
         eyes_total = eyes_total[eyes_total[:, 0].argsort()]
         return (eyes_total[0,:], eyes_total[1,:])
