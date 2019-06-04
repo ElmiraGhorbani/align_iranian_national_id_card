@@ -1,4 +1,4 @@
-## Align Iranian National Id Card
+### Align Iranian National Id Card
 A program to align rotated **id cards** and extract user data from it.
 
 ## Motivation Of Project
