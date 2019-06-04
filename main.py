@@ -38,7 +38,7 @@ from rotate_crop_with_HoughLines import HoughLines
 from information_exteract import card_data
 EYE_DIST = 60
 
-input_cards_path = 'outputs/input_cards/'
+input_cards_path = 'input_cards/'
 rotated_cards_path = 'outputs/rotated_cards'
 cards_cropped_by_eyes_path = 'outputs/cards_cropped_by_eyes'
 
