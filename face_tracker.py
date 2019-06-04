@@ -62,7 +62,7 @@ class FaceTracker():
 			return None
 		
 		#print('rect=2',rects)
-		elmira=rects
+		re_rect=rects
 		rects[:,2:] += rects[:,:2]
 		
 		
@@ -119,11 +119,11 @@ class FaceTracker():
 		print('whole card angel:',angle)
 		if(angle !=''):
 
-			return npoints,elmira,angle
+			return npoints,re_rect,angle
 
 		else:
 			angle=0
-			return npoints,elmira,angle
+			return npoints,re_rect,angle
 		
 
 
@@ -198,3 +198,4 @@ class FaceTracker():
 		cropped=img[top_left_y:bot_right_y+80, top_left_x:bot_right_x+80]
 	
 		cv2.imwrite('croppped.png', cropped)
+
