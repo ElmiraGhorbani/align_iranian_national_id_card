@@ -29,7 +29,7 @@ There is a sample input card in **input_cards/2.jpg** directory you replace it w
 
 * **Elmira Ghorbani** 
 
-See also the [blog post](https://github.com/ElmiiiRaa/align_iranian_national_id_card) for this project.
+See also the [blog post](http://blog.class.vision/1398/04/2541/#more-2541) for this project.
 
 ## License
 MIT ©2019
