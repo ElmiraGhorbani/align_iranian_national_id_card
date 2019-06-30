@@ -104,7 +104,7 @@ def crop(x1,x2,x3,x4,y1,y2,y3,y4,img):
         crop_h , crop_w = cropped.shape[:2]
         rotated_h , rotated_w = rotated.shape[:2]
 
-        if crop_h < 300 or crop_w <900:
+        if crop_h < 500 or crop_w <900:
 
                 return rotated
         else:
