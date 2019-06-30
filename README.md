@@ -27,7 +27,7 @@ There is a sample input card in **input_cards/2.jpg** directory you replace it w
 
 * **Elmira Ghorbani** 
 
-See also the blog post of [contributors](https://github.com/ElmiiiRaa/align_iranian_national_id_card) for this project.
+See also the blog post of [blog post](https://github.com/ElmiiiRaa/align_iranian_national_id_card) for this project.
 
 ## License
 MIT ©2019
