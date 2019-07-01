@@ -1,10 +1,10 @@
-# Align Iranian National Id Card
+# Align Iranian National ID Card
 A program to align rotated **id cards** and extract user data from it.
 
 ![](demo.gif)
 
-## Motivation Of Project
-For a user authentication project by the National IdCard, a number of data (national card image) were collected that some of these data could not be processed due to their size and scale. Because of this, images are manually aligned by the Camscanner program. They were then cut off. A national card balancing program was written to automate this process.
+## Motivation of the Project
+While working on a user authentication project for the National ID Card Organization, some of collected sample images could not be processed due to irregularity in size and scale. To overcome the problem, images were manually corrected using CamScanner. They were then cut off to be in the proper form. Repeating this process over and over is clearly a tedious task, so a simple program was written to automate it.
 
 ## Prerequisites
 ```
@@ -20,16 +20,16 @@ git clone https://github.com/ElmiiiRaa/align_iranian_national_id_card.git
 cd align_iran_national_id_card
 python main.py
 ```
-There is a sample input card in **input_cards/2.jpg** directory you replace it with you're own real cards.put two or three card each time.
+A sample card already exists in the **input_cards** directory. Simply replace it with your own input files. It's recommended to use no more than 2 or 3 files in each run.
 
-## Sources
-* For id card text detection : https://github.com/jojo23333/ctpn
+## Projects we borrowed from
+* Text detection in images : https://github.com/jojo23333/ctpn
 
 ## Author
 
 * **Elmira Ghorbani** 
 
-See also the [blog post](http://blog.class.vision/1398/04/2541/#more-2541) for this project.
+See the [blog post](http://blog.class.vision/1398/04/2541/#more-2541) for more information.
 
 ## License
 MIT ©2019
